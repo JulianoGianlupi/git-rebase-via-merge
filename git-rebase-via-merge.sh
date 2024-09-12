@@ -2,7 +2,7 @@
 #
 # https://github.com/capslocky/git-rebase-via-merge
 
-default_base_branch="origin/develop"
+default_base_branch="origin/dev"
 base_branch=${1:-$default_base_branch}
 export GIT_ADVICE=0
 set -e
